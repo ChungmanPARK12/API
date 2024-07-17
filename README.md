@@ -67,13 +67,13 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 Manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
-* ### Example of Code [Click here]https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README.md
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README.md)
 
 <h2>Students.ts</h2>
 
 Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
 
-* ### Example of Code [Click here]https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README2.md
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README2.md)
 
 <h2>Routes.ts</h2>
 
