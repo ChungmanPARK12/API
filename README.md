@@ -56,6 +56,9 @@ The purpose of this project is to gain understanding of REST API for managing st
    git https://github.com/ChungmanPARK12/DataStructure-and-Algorithm.git
    cd <StudentEnrolmentSystem>
    code ace serve --wath
+
+# Getting started
+- **Running the server**
    ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
 
 
