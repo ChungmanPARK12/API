@@ -63,9 +63,36 @@ The purpose of this project is to gain understanding of REST API for managing st
 - ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
 
 # Architechture
-<h2>StudentController</h2>
+<h2>StudentController.ts</h2>
 
-The `StudentsController` manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
+Manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
+
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+<h2>Students.ts</h2>
+
+Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
+
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+<h2>Routes.ts</h2>
+
+Maps HTTP methods to `StudentsController` actions, defining `endpoints` for creating, reading, updating, and deleting student records, ensuring structured API interaction.
+
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+# Postman
+
+<h2>API Endpoint</h2>
+
+You can interact with the Student Management API using the following base URL:
+
+ ```bash http://127.0.0.1:3333/api/v1/students```
+ 
+# CRUD
+ 
+Use the `GET` method to retrieve student details by ID. Example: `GET http://127.0.0.1:3333/api/v1/students/{id}` fetches the student record with the specified ID.
+
 
 
 
