@@ -97,7 +97,7 @@ Use the `GET` method to retrieve student details by ID or All of the lists.
 
 <h2>POST Student</h2>
  
-Use the `POST` method to create a new student record by sending student details in the request body.
+Use the `Update` method to create a new student record by sending student details in the request body.
 
 * ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPost.git)
 
