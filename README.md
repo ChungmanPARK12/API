@@ -67,13 +67,13 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 Manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+* ### Example of Code [Click here]https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README.md
 
 <h2>Students.ts</h2>
 
 Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+* ### Example of Code [Click here]https://github.com/ChungmanPARK12/ResultOfStudentController/blob/ee62e9ef441ccf45663404ab2656ca5a117e60ec/README2.md
 
 <h2>Routes.ts</h2>
 
@@ -109,7 +109,7 @@ Use the `DELETE` method to remove a student record by providing specific criteri
 
 <h2>UPDATE Student</h2>
 
-Use the `UPDATE` method to update an existing student record by its ID, replacing all fields with new data.
+Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
 
 
 * ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
