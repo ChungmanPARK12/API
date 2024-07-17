@@ -109,7 +109,7 @@ Use the `DELETE` method to remove a student record by providing specific criteri
 
 <h2>UPDATE Student</h2>
 
-Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
+Use the `UPDATE` method to update an existing student record by its ID, replacing all fields with new data.
 
 
 * ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
@@ -118,5 +118,11 @@ Use the `PATCH` method to update specific fields of an existing student record w
 
 * ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
 
+## Summary
+
+The Student Management API allows for efficient management of student records through CRUD operations. Users can create, read, update, and delete student data using HTTP methods. The API ensures data integrity with validation and secure endpoints. Postman is used for testing and documentation, providing a reliable interface for interacting with the API.
+
+## Thank you
+Thank you for visiting my github :)
 
  
