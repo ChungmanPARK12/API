@@ -7,7 +7,7 @@
 
 <h2>Purpose</h2>
 
-The purpose of this project is to gain understanding of REST API for managing student records, enabling efficient creation, retrieval, updating, and deletion of student data in a structured manner using Postman for testing and documentation.
+The purpose of this project is to gain understanding of REST API for managing student records, enabling efficient creation, retrieval, updating, and deletion of student data in a structured manner using `Postman` for testing and documentation.
 
 
 <h2>Features</h2>
@@ -61,6 +61,11 @@ The purpose of this project is to gain understanding of REST API for managing st
 - **Running the server**
 `node ace serve --wath`
 - ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
+
+# Architechture
+<h2>StudentController</h2>
+
+The `StudentsController` manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
 
 
