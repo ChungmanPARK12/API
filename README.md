@@ -81,22 +81,42 @@ Maps HTTP methods to `StudentsController` actions, defining `endpoints` for crea
 
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
 
-# Postman
+# Postman(CRUD)
 
 <h2>API Endpoint</h2>
 
-You can interact with the Student Management API using the following base URL:
+**You can interact with the Student Management API using the following base URL**:
 
- ```bash http://127.0.0.1:3333/api/v1/students```
+ ```http://127.0.0.1:3333/api/v1/students```
  
-# CRUD
+<h2>GET Student</h2>
  
-Use the `GET` method to retrieve student details by ID. Example: `GET http://127.0.0.1:3333/api/v1/students/{id}` fetches the student record with the specified ID.
+Use the `GET` method to retrieve student details by ID or All of the lists.
+
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+<h2>POST Student</h2>
+ 
+Use the `POST` method to create a new student record by sending student details in the request body.
+
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+<h2>DELETE Student</h2>
+ 
+Use the `DELETE` method to remove a student record by providing specific criteria in the request body.
+
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+
+<h2>UPDATE Student</h2>
+
+Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
 
 
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
 
+Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
-
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
 
 
  
