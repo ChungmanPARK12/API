@@ -12,15 +12,16 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 <h2>Features</h2>
 
-- **Create Student Records**: Add new student records with details such as StudentID, GivenName, LastName, and EmailAddress.
-- **Retrieve Student Records**: Fetch details of individual students or a list of all students.
-- **Update Student Records**: Modify existing student details using their unique identifiers.
-- **Delete Student Records**: Remove student records based on specific criteria like StudentID and GivenName.
-- **Validation**: Ensure data integrity with validation rules for fields like StudentID, GivenName, LastName, and EmailAddress.
-- **Custom Error Handling**: Provide meaningful error messages for validation failures and other exceptions.
-- **Authentication**: Secure endpoints with token-based authentication.
-- **Postman Integration**: Use Postman for testing API endpoints and ensuring they work as expected.
-- **Detailed API Documentation**: Comprehensive documentation for all endpoints, including request and response examples.
+- **Create**: Add new student records with details such as StudentID, GivenName, LastName, and EmailAddress.
+- **Read**: Retrieve individual student details or a list of all students.
+- **Update**: Modify existing student records using their unique identifiers.
+- **Delete**: Remove student records based on specific criteria like StudentID and GivenName.
+- **Validation**: Ensure data integrity with validation rules for input fields.
+- **Error Handling**: Provide meaningful error messages for validation failures and other exceptions.
+- **Authentication**: Secure API endpoints with token-based authentication.
+- **Postman Integration**: Use Postman for testing API endpoints and ensuring correct functionality.
+- **API Documentation**: Comprehensive documentation for all endpoints, including examples of requests and responses.
+
 
 
 <h2>Debugging Process</h2>
@@ -39,12 +40,27 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 - **Create and Save Requests**: Use Postman to create, save, and organize requests for each API endpoint.
 - **Run Tests**: Execute requests and review responses to ensure that endpoints behave as expected.
-- **Environment Variables**: Utilize Postman environment variables for managing different testing environments (e.g., development, staging, production).
 
 ### 4. Handle Exceptions
 
 - **Try-Catch Blocks**: Use try-catch blocks to handle exceptions gracefully and provide meaningful error responses.
 - **ModelNotFoundException**: Specifically handle `ModelNotFoundException` to return a `404 Not Found` response when a student record does not exist.
+
+<h2>Installation</h2>
+
+- **IDE**: An integrated development environment(IDE) makes development easier [official website](https://visualstudio.microsoft.com/)
+- **Visual Studio**: A powerful IDE for Windows and MacOS, which provides extensive feature for C# development. 
+
+- **Clone the Repository**:
+   ```bash
+   git https://github.com/ChungmanPARK12/DataStructure-and-Algorithm.git
+   cd <StudentEnrolmentSystem>
+   code ace serve --wath
+   ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
+
+
+
+
 
 
  
