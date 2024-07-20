@@ -112,7 +112,7 @@ Use the `DELETE` method to remove a student record by providing specific criteri
 Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
 
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/BinarySearch.git)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/UpdateStudent/blob/501503634eb24a4f7b06bc3562d6ac9d408cd77b/README.md)
 
 Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
