@@ -65,7 +65,7 @@ The purpose of this project is to gain understanding of REST API for managing st
 # Architechture
 <h2>StudentController.ts</h2>
 
-Manages student records with methods to create (`store`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
+Manages student records with methods to create (`store`), read(`show`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
 * ### Example of Code [Click here](https://github.com/ChungmanPARK12/API_Student.ts.git)
 
