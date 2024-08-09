@@ -67,19 +67,19 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 Manages student records with methods to create (`store`), read(`show`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API_Student.ts.git)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/StudentController)
 
 <h2>Students.ts</h2>
 
 Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/StudentsDefinition.git)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/StudentsDefinition)
 
 <h2>Routes.ts</h2>
 
 Maps HTTP methods to `StudentsController` actions, defining `endpoints` for creating, reading, updating, and deleting student records, ensuring structured API interaction.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/Routes.ts.git)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/Routes.ts)
 
 # Postman(CRUD)
 
@@ -93,26 +93,26 @@ Maps HTTP methods to `StudentsController` actions, defining `endpoints` for crea
  
 Use the `GET` method to retrieve student details by ID or All of the lists.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfStudentController.git)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfStudentController)
 
 <h2>POST Student</h2>
  
 Use the `Update` method to create a new student record by sending student details in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPost.git)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfPost)
 
 <h2>DELETE Student</h2>
  
 Use the `DELETE` method to remove a student record by providing specific criteria in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfDelete.git)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfDelete)
 
 <h2>UPDATE Student</h2>
 
 Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
 
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPut.git)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfPut)
 
 Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
