@@ -116,7 +116,7 @@ Use the `PUT` method to update an existing student record by its ID, replacing a
 
 Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/ResultOfPut/blob/5f05bc270a8346a58a12a24bfaf1c6efa8272949/README2.md)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/b32e7357960da2eb45000a192832a8f9ccf748e8/ResultOfPatch)
 
 ## Summary
 
