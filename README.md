@@ -105,7 +105,7 @@ Use the `Update` method to create a new student record by sending student detail
  
 Use the `DELETE` method to remove a student record by providing specific criteria in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfDelete)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/51055018b31a29529a75f38e012070e4ac5a31cc/src/ResultOfDelete)
 
 <h2>UPDATE Student</h2>
 
