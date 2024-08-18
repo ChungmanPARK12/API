@@ -93,13 +93,13 @@ Maps HTTP methods to `StudentsController` actions, defining `endpoints` for crea
  
 Use the `GET` method to retrieve student details by ID or All of the lists.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/f988ed6d93924a63caaa67542af10ca8a0692ffa/GetAllStudents)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/1f24ce91800993c18cc13a1f5f84533a348935ae/src/GetAllStudents)
 
 <h2>POST Student</h2>
  
 Use the `Update` method to create a new student record by sending student details in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/f988ed6d93924a63caaa67542af10ca8a0692ffa/ResultOfPost)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/1f24ce91800993c18cc13a1f5f84533a348935ae/src/ResultOfPost)
 
 <h2>DELETE Student</h2>
  
