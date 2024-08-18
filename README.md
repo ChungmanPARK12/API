@@ -67,19 +67,19 @@ The purpose of this project is to gain understanding of REST API for managing st
 
 Manages student records with methods to create (`store`), read(`show`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/StudentController)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentController)
 
 <h2>Students.ts</h2>
 
 Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/StudentsDefinition)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentsDefinition)
 
 <h2>Routes.ts</h2>
 
 Maps HTTP methods to `StudentsController` actions, defining `endpoints` for creating, reading, updating, and deleting student records, ensuring structured API interaction.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/Routes.ts)
+* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/Routes.ts)
 
 # Postman(CRUD)
 
@@ -93,7 +93,7 @@ Maps HTTP methods to `StudentsController` actions, defining `endpoints` for crea
  
 Use the `GET` method to retrieve student details by ID or All of the lists.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfStudentController)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/GetAllStudents)
 
 <h2>POST Student</h2>
  
