@@ -1,5 +1,5 @@
 # Delete Student by Id
-![Delete](https://github.com/user-attachments/assets/11bf4d76-3e67-40f7-b708-29d2388b05a2)
+![deleteid](https://github.com/user-attachments/assets/a578565c-0ceb-45b1-ba6d-2f68383b70b8)
 # Error Handling
-![Errorid](https://github.com/user-attachments/assets/1eccb57a-f62a-4700-9265-58c694795150)
+![errordeleteid](https://github.com/user-attachments/assets/59c78974-42fe-4f0d-81da-20d254b71dec)
  
