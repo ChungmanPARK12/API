@@ -99,7 +99,7 @@ Use the `GET` method to retrieve student details by ID or All of the lists.
  
 Use the `Update` method to create a new student record by sending student details in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfPost)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/d9ce893432b976888f42986bbca2a44297c17a56/src/ResultOfPost)
 
 <h2>DELETE Student</h2>
  
