@@ -1,9 +1,8 @@
 # Patch Student
-![Patch](https://github.com/user-attachments/assets/426a5702-2aa2-48c1-ac9c-e1c518f43e6d)
+![patch](https://github.com/user-attachments/assets/343e28f3-2979-411d-ada7-1a328bfd887a)
 # Error Handling
 #### Error by Student Id
-![errorbyid](https://github.com/user-attachments/assets/2715b950-1f62-456a-8cdd-b06e4bb6242e)
+![patcherrorid](https://github.com/user-attachments/assets/40a28955-109a-4f31-ad53-3d7042513153)
 
 #### Error by Email Symbol
-![ErrorbyEmail](https://github.com/user-attachments/assets/87994462-a0dc-4e8e-947a-b69d72b432d8)
- 
+![patcherroremail](https://github.com/user-attachments/assets/5162185f-aff7-4ea1-b7a0-85bf746f1863)
