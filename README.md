@@ -105,14 +105,14 @@ Use the `Update` method to create a new student record by sending student detail
  
 Use the `DELETE` method to remove a student record by providing specific criteria in the request body.
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/92d12cb10c43865c4a24f2c98ca91757d8c92273/src/ResultOfPut)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/b8f2241e0984719436e545670f87dc630cbb0832/src/ResultOfDelete)
 
 <h2>UPDATE Student</h2>
 
 Use the `PUT` method to update an existing student record by its ID, replacing all fields with new data.
 
 
-* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/39e2ddeb28ca82bbf321946d41c03a5e13f20adc/ResultOfPut)
+* ### Result in Postman [Click here](https://github.com/ChungmanPARK12/API/tree/b8f2241e0984719436e545670f87dc630cbb0832/src/ResultOfPut)
 
 Use the `PATCH` method to update specific fields of an existing student record without replacing the entire record.
 
