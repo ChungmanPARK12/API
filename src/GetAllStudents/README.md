@@ -1,9 +1,9 @@
 # Get all the Students
-![getall](https://github.com/user-attachments/assets/fbc67854-36b8-42aa-9942-35de5c66fe77)
+![getall](https://github.com/user-attachments/assets/d19ab4c0-c70d-4ee0-af1e-8befeb275d57)
 
 # Get the student by id
-![Getby](https://github.com/user-attachments/assets/9e5f879d-3ccb-4c76-befc-7878b5f302de)
+![byid](https://github.com/user-attachments/assets/3f15086c-7cf8-4273-bdda-311572e00ab5)
 
 # Error Handling
-![Error](https://github.com/user-attachments/assets/7c52aa35-a21d-4eb8-a99a-c986ebe8d800)
+![Error](https://github.com/user-attachments/assets/e6e5c780-378c-461c-8b9d-69534c4a5057)
  
