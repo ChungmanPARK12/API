@@ -1,8 +1,8 @@
 # Put Student
-![put](https://github.com/user-attachments/assets/6620332b-b4b0-4157-a313-b0192b25eb24)
+![putst](https://github.com/user-attachments/assets/a0593a68-ea0b-4c7f-baf2-7d4a64802d3d)
 # Error Handling
 #### Error by Student Id
-![errorbyid](https://github.com/user-attachments/assets/0c49da22-900d-4081-8480-9fee5527940c)
+![puterrorid](https://github.com/user-attachments/assets/7b32b6ba-5e2e-448a-8c0e-1f045b26c1f1)
 #### Error by Email Symbol
-![errorbyemail](https://github.com/user-attachments/assets/7dad5d25-adf5-4ed3-849f-3fcf71937c25)
+![puterrorsymbol](https://github.com/user-attachments/assets/3870d955-7cb2-437f-b46c-f8303bb4c60b)
  
