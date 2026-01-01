@@ -94,10 +94,10 @@ Postman test results:
 
 ## Summary
 
-The Student Management API allows for efficient management of student records through CRUD operations. Users can create, read, update, and delete student data using HTTP methods. The API ensures data integrity with validation and secure endpoints. Postman is used for testing and documentation, providing a reliable interface for interacting with the API.
+This project is a learning-focused REST API built to practice backend fundamentals,
+including CRUD operations, routing, controller structure, and basic validation.
+Postman was used to manually test API behavior during development.
 
-## Thank you
-Thank you for visiting my github :)
 
 
  
