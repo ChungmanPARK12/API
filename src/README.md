@@ -1,7 +1,5 @@
 <h2>API Endpoint</h2>
 
-**You can interact with the Student Management API using the following base URL**:
-
  ```http://127.0.0.1:3333/api/v1/students```
  
 <h2>GET Student</h2>
