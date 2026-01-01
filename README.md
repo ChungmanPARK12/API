@@ -16,7 +16,7 @@ frontend applications by handling data persistence and request–response flows.
 - Node.js
 - TypeScript
 - AdonisJS
-- MongoDB / MySQL
+- MySQL
 
 ## What I practiced
 
