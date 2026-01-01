@@ -3,83 +3,87 @@
 
 ![postman_0](https://github.com/user-attachments/assets/eda9fc36-102b-4ee4-a5d9-3871f6069810)
 
-# Overview
+## Overview
 
-<h2>Purpose</h2>
+This project is a learning-focused REST API built to practice backend fundamentals,
+including routing, controller structure, CRUD operations, and basic data validation.
 
-The purpose of this project is to gain understanding of REST API for managing student records, enabling efficient creation, retrieval, updating, and deletion of student data in a structured manner using `Postman` for testing and documentation.
+The main goal of this project was to understand how a backend API supports
+frontend applications by handling data persistence and request–response flows.
 
+## Tech Stack
 
-<h2>Features</h2>
+- Node.js
+- TypeScript
+- AdonisJS
+- MongoDB / MySQL
 
-- **Create**: Add new student records with details such as StudentID, GivenName, LastName, and EmailAddress.
-- **Read**: Retrieve individual student details or a list of all students.
-- **Update**: Modify existing student records using their unique identifiers.
-- **Delete**: Remove student records based on specific criteria like StudentID and GivenName.
-- **Validation**: Ensure data integrity with validation rules for input fields.
-- **Error Handling**: Provide meaningful error messages for validation failures and other exceptions.
-- **Authentication**: Secure API endpoints with token-based authentication.
-- **Postman Integration**: Use Postman for testing API endpoints and ensuring correct functionality.
-- **API Documentation**: Comprehensive documentation for all endpoints, including examples of requests and responses.
+## What I practiced
 
+- Designing RESTful CRUD endpoints
+- Structuring controllers and routes
+- Basic request validation and error responses
+- Using Postman to test and document API behavior
+- Understanding how frontend applications consume APIs
 
+## Debugging & Learning Notes
 
-<h2>Debugging Process</h2>
+While building this API, I debugged common backend issues by manually testing
+requests and responses using Postman.
 
-### 1. Check Request and Response
+### Request & Response Checking
+- Verified request payloads and headers when endpoints did not behave as expected
+- Checked HTTP status codes and error messages to understand failure cases
 
-- **Inspect Request Data**: Ensure that the data being sent to the API is correctly formatted and includes all required fields.
-- **Review Response**: Look at the API response to understand the status code and any error messages returned by the server.
+### Input Validation
+- Encountered validation errors when required fields were missing or incorrectly formatted
+- Learned how validation rules help prevent invalid data from reaching the database
 
-### 2. Validate Input Data
+### Postman-based Testing
+- Used Postman to manually test CRUD endpoints during development
+- Saved requests to quickly re-test after code changes
 
-- **Validation Rules**: Verify that the input data adheres to the defined validation rules. For example, check that `StudentID` is unique and `EmailAddress` is a valid email format.
-- **Custom Error Messages**: Ensure that custom error messages are correctly set up to provide clear guidance on validation failures.
+### Exception Handling
+- Handled cases where requested records did not exist
+- Returned appropriate error responses (e.g., 404 Not Found) for missing resources
 
-### 3. Use Postman for Testing
+## Installation
 
-- **Create and Save Requests**: Use Postman to create, save, and organize requests for each API endpoint.
-- **Run Tests**: Execute requests and review responses to ensure that endpoints behave as expected.
+This project was developed and tested locally.
 
-### 4. Handle Exceptions
+```bash
+git clone https://github.com/ChungmanPARK12/API.git
+cd StudentEnrolmentSystem
+npm install
+```
 
-- **Try-Catch Blocks**: Use try-catch blocks to handle exceptions gracefully and provide meaningful error responses.
-- **ModelNotFoundException**: Specifically handle `ModelNotFoundException` to return a `404 Not Found` response when a student record does not exist.
+## Getting Started
 
-<h2>Installation</h2>
+The API was run locally during development using the AdonisJS development server.
 
-- **IDE**: An integrated development environment(IDE) makes development easier [official website](https://visualstudio.microsoft.com/)
-- **Visual Studio**: A powerful IDE for Windows and MacOS, which provides extensive feature for C# development. 
-
-- **Clone the Repository**:
-   ```bash
-   git https://github.com/ChungmanPARK12/DataStructure-and-Algorithm.git
-   cd <StudentEnrolmentSystem>
-  
-
-# Getting started
-- **Running the server**
-`node ace serve --wath`
-- ![started](https://github.com/user-attachments/assets/31c1bf47-3c10-4252-956b-7fe64884397d)
+```bash
+node ace serve --watch
+```
 
 # Architechture
 <h2>StudentController.ts</h2>
 
-Manages student records with methods to create (`store`), read(`show`), update (`update`), delete (`destroy`), and validate inputs, ensuring robust and secure CRUD operations.
+Handles CRUD operations for student records, including creating, reading,
+updating, and deleting data.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentController)
+- [View code](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentController)
 
 <h2>Students.ts</h2>
 
-Represents student records, with properties like `StudentID`, `GivenName`, `LastName`, and `EmailAddress`, enabling database interactions and validation for CRUD operations.
+Defines the student data model and field structure used by the API.
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentsDefinition)
+- [View code](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/StudentsDefinition)
 
 <h2>Routes.ts</h2>
 
-Maps HTTP methods to `StudentsController` actions, defining `endpoints` for creating, reading, updating, and deleting student records, ensuring structured API interaction.
+Defines API endpoints and maps HTTP requests to controller actions
 
-* ### Example of Code [Click here](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/Routes.ts)
+- [View code](https://github.com/ChungmanPARK12/API/tree/09a744dac35c59aaa0aa071d3c258a9ffa979694/src/Routes.ts)
 
 # Postman(CRUD)
 
