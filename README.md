@@ -87,7 +87,12 @@ Defines API endpoints and maps HTTP requests to controller actions
 
 # Postman(CRUD)
 
+## Postman (CRUD Testing)
 
+CRUD endpoints were manually tested using Postman.
+
+Postman test results:
+- [View results](src)
 
 ## Summary
 
